@@ -108,8 +108,8 @@ def get_data(hzAcq,nSamples):
     return rgdSamples
 
 hzAcq = c_double(10000)
-nSamples = 10000
-n_time_save = 2
+nSamples = 10000 ############################################################
+n_time_save = 10 ############################################################
 
 for i in range(n_time_save):
     start_time = time.time()
